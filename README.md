@@ -8,7 +8,7 @@ Author : Lucie Engel
 
 I am using the open source dataset "CoronaHack - Chest X-Ray" from kaggle that can be found here : https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset
 
-The dataset is structered this way :
+The dataset is structered this way : the X-rays are saved in the folder "Coronahack-Chest-XRay-Dataset" and divided between the training set and the testing set. The mapping between filenames and classes (Pnemionia, Normal) is stored in the csv file "Chest_xray_Corona_Metadata.csv". 
 
 ## Transfer learning ResNet50
 
@@ -20,6 +20,9 @@ Using a ResNet50 pre-trained on ImageNet can be questionnable too. It could be i
 I am currently working on a much smaller CNN (only 895,579 trainable parameters compared to the 24,845,333 trainable parameters for the first model). Our AUC for the testing set is approximately equal to 88%. 
 
 ## References 
+
+* [Covid-19 Detection from Lung X-rays](https://www.kaggle.com/sidharthavs/covid-19-detection-from-lung-x-rays)
+* [Computer Vision course from Kaggle](https://www.kaggle.com/learn/computer-vision)
 
 
 
