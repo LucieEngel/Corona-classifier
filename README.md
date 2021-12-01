@@ -15,6 +15,6 @@ The dataset is structered this way :
 My first intuition was to use transfer learning with a pre-trained ResNet50 on the ImageNet dataset. The training phase appeared to be very unstable even with low learning rate. 
 
 ## 
-For this reason, I am currently working on a much smaller CNN. Our AUC for the testing set is approximately equal to 
+For this reason, I am currently working on a much smaller CNN. Our AUC for the testing set is approximately equal to 88%. 
 
 
