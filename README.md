@@ -17,7 +17,11 @@ Using a ResNet50 pre-trained on ImageNet can be questionnable too. It could be i
 
 ## Shallow CNN 
 
-I am currently working on a much smaller CNN (only 895,579 trainable parameters compared to the 24,845,333 trainable parameters for the first model). Our AUC for the testing set is approximately equal to 88%. 
+I am currently working on a much smaller CNN (only 895,579 trainable parameters compared to the 24,845,333 trainable parameters for the first model). Our AUC for the testing set is approximately equal to 88%. AUC seems to be more relevant here as the dataset is highly unbalanced between ill and healthy patients. 
+
+## Paths to explore
+
+* Data augmentation 
 
 ## References 
 
